@@ -15,6 +15,7 @@
 	<description>web api</description>
 	<properties>
 		<java.version>17</java.version>
+		<start-class>in.ac.saispurthi.webapi.WebapiApplication</start-class>
 	</properties>
 	<dependencies>
 		<dependency>
