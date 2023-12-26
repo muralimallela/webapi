@@ -13,8 +13,9 @@ import lombok.Setter;
 @AllArgsConstructor
 @Table(name = "faculty_table")
 public class FacultyModel {
-    private String sid;
     @Id
+    private String sid;
+
 //    @GeneratedValue (strategy = GenerationType.IDENTITY)
     private String fid;
     private String fname;

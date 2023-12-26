@@ -8,8 +8,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/admissions")
+
 public class AdmissionController {
     @Autowired
     private AdmissionService admissionService;
